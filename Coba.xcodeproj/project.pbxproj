@@ -14,6 +14,10 @@
 		CEC701B920737F6300450660 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC701B720737F6300450660 /* LaunchScreen.storyboard */; };
 		CEC701C420737F6300450660 /* CobaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC701C320737F6300450660 /* CobaTests.swift */; };
 		CEC701CF20737F6300450660 /* CobaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC701CE20737F6300450660 /* CobaUITests.swift */; };
+		CEC701DE2074508300450660 /* TextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC701DC2074508300450660 /* TextFieldCell.swift */; };
+		CEC701DF2074508300450660 /* TextFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC701DD2074508300450660 /* TextFieldCell.xib */; };
+		CEC701E22074645800450660 /* ButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC701E02074645800450660 /* ButtonCell.swift */; };
+		CEC701E32074645800450660 /* ButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC701E12074645800450660 /* ButtonCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		CEC701CA20737F6300450660 /* CobaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CobaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC701CE20737F6300450660 /* CobaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CobaUITests.swift; sourceTree = "<group>"; };
 		CEC701D020737F6300450660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC701DC2074508300450660 /* TextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCell.swift; sourceTree = "<group>"; };
+		CEC701DD2074508300450660 /* TextFieldCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldCell.xib; sourceTree = "<group>"; };
+		CEC701E02074645800450660 /* ButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCell.swift; sourceTree = "<group>"; };
+		CEC701E12074645800450660 /* ButtonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,10 @@
 			children = (
 				CEC701AE20737F6200450660 /* AppDelegate.swift */,
 				CEC701B020737F6200450660 /* ViewController.swift */,
+				CEC701DC2074508300450660 /* TextFieldCell.swift */,
+				CEC701DD2074508300450660 /* TextFieldCell.xib */,
+				CEC701E02074645800450660 /* ButtonCell.swift */,
+				CEC701E12074645800450660 /* ButtonCell.xib */,
 				CEC701B220737F6200450660 /* Main.storyboard */,
 				CEC701B520737F6300450660 /* Assets.xcassets */,
 				CEC701B720737F6300450660 /* LaunchScreen.storyboard */,
@@ -231,7 +243,9 @@
 			files = (
 				CEC701B920737F6300450660 /* LaunchScreen.storyboard in Resources */,
 				CEC701B620737F6300450660 /* Assets.xcassets in Resources */,
+				CEC701E32074645800450660 /* ButtonCell.xib in Resources */,
 				CEC701B420737F6200450660 /* Main.storyboard in Resources */,
+				CEC701DF2074508300450660 /* TextFieldCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +272,8 @@
 			files = (
 				CEC701B120737F6200450660 /* ViewController.swift in Sources */,
 				CEC701AF20737F6200450660 /* AppDelegate.swift in Sources */,
+				CEC701DE2074508300450660 /* TextFieldCell.swift in Sources */,
+				CEC701E22074645800450660 /* ButtonCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
