@@ -27,6 +27,7 @@ class TableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return arrayOfDataCell.count
+        //l
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
